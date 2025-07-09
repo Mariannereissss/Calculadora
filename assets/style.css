@@ -1,16 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    overflow: hidden;
 }
 
 .calculadora {
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 500px;
+    padding: 15px 15px 5px 15px;
+    max-height: 98vh;
     border: 2px solid rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     background-color: rgb(255, 247, 229);
@@ -18,27 +24,34 @@ body {
 }
 
 .display {
-    height: 15vh;
+    height: 80px;
+    font-size: 1.6rem;
     border: 2px solid #cec8f1;
-    margin: 15px;
     border-radius: 20px;
     background-color: #e3dffd;
 }
 
 .numeros {
+    flex: 1;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 10px;
-    margin: 15px;
+    margin: 5px;
+    margin-top: 10px;
 }
 
 button {
-    padding: 20px 10px;
+    padding: 15px 10px;
     border-radius: 10px;
     border: none;
     box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.1);
     font-size: 1.1rem;
+    border: 2px solid transparent;
+}
+
+button:hover {
+    border: 1px solid #000;
 }
 
 img {
