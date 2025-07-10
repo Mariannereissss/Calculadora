@@ -1,4 +1,4 @@
-# 🧮 Calculadora Simples
+                                        # 🧮 Calculadora Simples
 
 Uma calculadora funcional feita com HTML, CSS e JavaScript puro. Ideal para treinar lógica, DOM, eventos grid-layout.
 
