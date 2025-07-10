@@ -4,7 +4,7 @@ Uma calculadora funcional feita com HTML, CSS e JavaScript puro. Ideal para trei
 
 ## 📱 Demonstração
 
-./assets/imagens/Jla3P43tx11.png
+<img href=/assets/imagens/Jla3P43tx11.png>
 
 
 ## 🚀 Funcionalidades
