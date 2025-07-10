@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     margin: 0;
     overflow: hidden;
+    font-family: sans-serif, Arial;
 }
 
 .calculadora {
@@ -25,10 +26,18 @@ body {
 
 .display {
     height: 80px;
-    font-size: 1.6rem;
+    font-size: 3rem;
     border: 2px solid #cec8f1;
     border-radius: 20px;
     background-color: #e3dffd;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .numeros {
