@@ -1,6 +1,6 @@
 # 🧮 Calculadora Simples
 
-Uma calculadora funcional feita com HTML, CSS e JavaScript puro. Ideal para treinar lógica, DOM e eventos.
+Uma calculadora funcional feita com HTML, CSS e JavaScript puro. Ideal para treinar lógica, DOM, eventos grid-layout.
 
 ## 📱 Demonstração
 
@@ -11,7 +11,6 @@ Uma calculadora funcional feita com HTML, CSS e JavaScript puro. Ideal para trei
 
 - Adição, subtração, multiplicação, divisão, porcentagem
 - Limite de caracteres no display
-- Layout responsivo
 - Visual limpo
 
 ## 🛠️ Tecnologias usadas
