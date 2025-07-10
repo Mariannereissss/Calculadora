@@ -18,14 +18,11 @@ limpar.addEventListener('click', () => {
     display.textContent = '';
 });
 
-let numeroAnterior = '';
 let operador = '';
-let numeroAtual = '';
 
 operadores.forEach(operacoes => {
     operacoes.addEventListener('click', () => {
         if(display.textContent.length < 9) {
-            numeroAnterior = display.textContent;
             operador = operacoes.textContent;
             display.textContent += '' + operador + '';
         } 
